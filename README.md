@@ -1,2 +1,2 @@
 # Nextbot
- Nextbot v1.1
+ Nextbot v1.3
