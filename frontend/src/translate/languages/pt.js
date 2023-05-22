@@ -29,7 +29,7 @@ const messages = {
         },
       },
       copyright: {
-        title: "Whaticket",
+        title: "Nextbot",
       },
 
       auth: {

@@ -79,12 +79,12 @@ const sendDialog = async (
       let options = "";
 
       showChatBots.options.forEach((option, index) => {
-        options += `*${index + 1}* - ${option.name}\n`;
+        options += `*[ ${index + 1} ]* - ${option.name}\n`;
       });
 
       const optionsBack =
         options.length > 0
-          ? `${options}\n*#* Voltar para o menu principal`
+          ? `${options}\n*[ # ]* - Voltar Menu Inicial`
           : options;
 
       if (options.length > 0) {

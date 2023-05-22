@@ -489,7 +489,7 @@ const verifyQueue = async (
         });
 
         const body = formatBody(
-          `\u200e${choosenQueue.greetingMessage}\n\n${options}\n*#* Voltar para o menu principal`,
+          `\u200e${choosenQueue.greetingMessage}\n\n${options}\n*[ # ]* - Voltar ao Menu Principal`,
           contact
         );
         const sentMessage = await wbot.sendMessage(
